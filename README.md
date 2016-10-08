@@ -1,12 +1,14 @@
-Number Format
+# Number Format
 
 A simple gem to convert number to notation.
 
 Getting Started
 
 1. Install the gem
-
+```ruby
 gem install numformat_lili
+```
+
 
 2. Configure the Elibom object passing your credentials.
 
