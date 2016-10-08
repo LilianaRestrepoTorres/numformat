@@ -1,0 +1,19 @@
+rubygems
+
+gem build numberformat_lili.gemspec
+sudo gem install numformat_lili-0.1.0.gem
+irb
+require "numformat"
+f = NumberFormat.new
+f.format(123567)
+
+curl -u lilianarestrepotorres https://rubygems.org/api/v1/api_key.yaml >
+~/.gem/credentials; chmod 0600 ~/.gem/credentials
+
+curl -u lilianarestrepotorres https://rubygems.org/api/v1/api_key.yaml >~/.gem/credentials;chmod 0600 ~/.gem/credentials
+    Enter host password for user 'lilianarestrepotorres':
+
+gem push numformat_lili-0.1.0.gem
+
+    Pushing gem to https://rubygems.org...
+    Successfully registered gem: numformat_lili (0.1.0)
